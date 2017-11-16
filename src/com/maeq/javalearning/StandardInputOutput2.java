@@ -11,26 +11,26 @@ public class StandardInputOutput2 {
 
 	public static void main(String[] args) throws IOException {
         String s;  
-        // ´´½¨»º³åÇøÔÄ¶ÁÆ÷´Ó¼üÅÌÖğĞĞ¶ÁÈëÊı¾İ  
+        // åˆ›å»ºç¼“å†²åŒºé˜…è¯»å™¨ä»é”®ç›˜é€è¡Œè¯»å…¥æ•°æ®  
         InputStreamReader ir = new InputStreamReader(System.in);  
         BufferedReader in = new BufferedReader(ir);  
-        System.out.println("UnixÏµÍ³: ctrl-d »ò ctrl-c ÍË³ö"  
-                + "\nWindowsÏµÍ³: ctrl-z ÍË³ö");  
+        System.out.println("Unixç³»ç»Ÿ: ctrl-d æˆ– ctrl-c é€€å‡º"  
+                + "\nWindowsç³»ç»Ÿ: ctrl-z é€€å‡º");  
         try {  
-            // ¶ÁÒ»ĞĞÊı¾İ£¬²¢±ê×¼Êä³öÖÁÏÔÊ¾Æ÷  
+            // è¯»ä¸€è¡Œæ•°æ®ï¼Œå¹¶æ ‡å‡†è¾“å‡ºè‡³æ˜¾ç¤ºå™¨  
             s = in.readLine();  
-            // readLine()·½·¨ÔËĞĞÊ±Èô·¢ÉúI/O´íÎó£¬½«Å×³öIOExceptionÒì³£  
+            // readLine()æ–¹æ³•è¿è¡Œæ—¶è‹¥å‘ç”ŸI/Oé”™è¯¯ï¼Œå°†æŠ›å‡ºIOExceptionå¼‚å¸¸  
             while (s != null) {  
                 System.out.println("Read: " + s);  
                 s = in.readLine();  
             }  
-            // ¹Ø±Õ»º³åÔÄ¶ÁÆ÷  
+            // å…³é—­ç¼“å†²é˜…è¯»å™¨  
             in.close();  
         } catch (IOException e) { // Catch any IO exceptions.  
             e.printStackTrace();  
         }  
 
-        // BufferedReader ÁíÒ»ÖÖÓÃ·¨  ´ÓÎÄ¼ş¶ÁÈ¡ÄÚÈİ
+        // BufferedReader å¦ä¸€ç§ç”¨æ³•  ä»æ–‡ä»¶è¯»å–å†…å®¹
         BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("D:\\ming.txt")));
         String data = null;
         while((data = br.readLine())!=null)
@@ -38,7 +38,7 @@ public class StandardInputOutput2 {
         	System.out.println(data);
         }
         
-        // BufferedReader ÁíÒ»ÖÖÓÃ·¨  ´ÓÍøÂç¶ÁÈ¡Êı¾İ
+        // BufferedReader å¦ä¸€ç§ç”¨æ³•  ä»ç½‘ç»œè¯»å–æ•°æ®
         String str3 = StandardInputOutput2.getHtml("http://www.baidu.com");
         System.out.println(str3);
 	}

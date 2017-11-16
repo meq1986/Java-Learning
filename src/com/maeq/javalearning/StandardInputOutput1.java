@@ -7,7 +7,7 @@ public class StandardInputOutput1 {
 	public static void main(String[] args) {
         int b;  
         try {  
-        	// ´Ó±ê×¼ÊäÈë ¼üÅÌ ¶ÁÈ¡
+        	// ä»æ ‡å‡†è¾“å…¥ é”®ç›˜ è¯»å–
             System.out.println("please Input:");  
             while ((b = System.in.read()) != -1) {  
                 System.out.print((char) b);  
