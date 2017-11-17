@@ -5,7 +5,7 @@ package com.maeq.javalearning;
 
 /**
  * @author Administrator
- * ²Î¿¼javaÔ´´úÂë Ð´Ò»¸östringÀà
+ * ï¿½Î¿ï¿½javaÔ´ï¿½ï¿½ï¿½ï¿½ Ð´Ò»ï¿½ï¿½stringï¿½ï¿½
  */
 public class MString {
 
@@ -14,10 +14,13 @@ public class MString {
 	 */
 	@SuppressWarnings("null")
 	public static void main(String[] args) {
-		//String s = new String();
-		String s = null;
+		String s = "";
 		System.out.println(s.length());
-		System.out.println("s.length = " + s.length());
+		System.out.println(s.hashCode());
+		
+		s = "1";
+		System.out.println(s.hashCode());
+		
 	}
 
 }
