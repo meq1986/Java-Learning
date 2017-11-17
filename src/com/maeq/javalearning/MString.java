@@ -5,7 +5,7 @@ package com.maeq.javalearning;
 
 /**
  * @author Administrator
- * �ο�javaԴ���� дһ��string��
+ * 中文注释
  */
 public class MString {
 
