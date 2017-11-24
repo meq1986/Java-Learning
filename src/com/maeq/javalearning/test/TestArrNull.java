@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.maeq.javalearning;
+package com.maeq.javalearning.test;
 
 /**
  * @author Administrator

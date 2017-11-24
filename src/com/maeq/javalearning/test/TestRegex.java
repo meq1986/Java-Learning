@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.maeq.javalearning;
+package com.maeq.javalearning.test;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;

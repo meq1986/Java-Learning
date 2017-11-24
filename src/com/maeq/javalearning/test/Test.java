@@ -1,4 +1,4 @@
-package com.maeq.javalearning;
+package com.maeq.javalearning.test;
 
 public class Test {
 
