@@ -27,7 +27,6 @@ public class TestStrRuntime {
 		  System.out.println("str length = " + str.length());
 		  System.out.println(Time);
 		  
-		  StringBuffer 
 		  StringBuilder bulider=new StringBuilder("");
 		  System.out.println("StringBuilder length = " + bulider.toString().length());
 		  starTime=System.currentTimeMillis();
