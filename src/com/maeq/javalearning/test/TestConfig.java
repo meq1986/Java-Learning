@@ -25,11 +25,20 @@ public class TestConfig {
 		try
 		{
 		    Configuration config = configs.properties(new File("config.properties"));
-		    System.out.println("Hello,world.");
-		    // access configuration properties
+		    
+		    String dbHost = config.getString("database.host");
+		    int dbPort = config.getInt("database.port");
+		    String dbUser = config.getString("database.user");
+		    long dbTimeout = config.getLong("database.timeout");
+		    
+		    System.out.println("database.host = " + dbHost);
+		    System.out.println("database.port = " + dbPort);
+		    System.out.println("database.user = " + dbUser);
+		    System.out.println("database.timeout = " + dbTimeout);
 		}
 		catch (ConfigurationException cex)
 		{
+			cex.printStackTrace();
 			System.out.println(cex.toString());
 		} 
 		
