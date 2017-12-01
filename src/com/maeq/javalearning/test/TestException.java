@@ -6,8 +6,15 @@ public class TestException {
 		// TODO Auto-generated method stub
 		System.out.println("Hello,world."); 
 		
+		try
+		{
+			throw new NullPointerException();
+		}
+		catch (NullPointerException e) {
+			System.out.println("NullPointerException"); 
+		}
 		
-		
+		System.out.println("i am the end."); 
 	}
 
 }
