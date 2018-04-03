@@ -24,7 +24,7 @@ public class TestArr {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		char [] c = {'1','2','3'};
+		char [] c = {'1','2','3','4'};
 		TestArr ta = new TestArr();
 		ta.test1(c);
 		ta.test2(c);
