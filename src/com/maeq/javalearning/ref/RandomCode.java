@@ -21,7 +21,7 @@ import java.util.Random;
 
 /**
  * ClassName:RandomCode <br/>
- * Function: 产生随机数 两种方式
+ * Function: 产生随机数 两种方式 
  * Reason:	 
  * Date:     2018年5月3日 下午3:58:26 <br/>
  * @author   meq1986@163.com
