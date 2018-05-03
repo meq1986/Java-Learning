@@ -10,7 +10,7 @@ import org.apache.commons.configuration2.builder.fluent.Configurations;
 import org.apache.commons.configuration2.ex.ConfigurationException;
 
 /**
- * @author user
+ * @author maeq
  *
  */
 public class TestConfig {
