@@ -25,7 +25,7 @@ import java.util.Random;
  * Reason:	 
  * Date:     2018年5月3日 下午3:58:26 <br/>
  * @author   meq1986@163.com
- * @version  
+ * @version  1.0.0
  * @since    JDK 1.6
  * @see 	 
  */
