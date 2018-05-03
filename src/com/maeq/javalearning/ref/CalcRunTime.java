@@ -4,7 +4,7 @@
 package com.maeq.javalearning.ref;
 
 /**
- * @author Administrator
+ * @author maeq
  * 计算程序运行时间的两种方式式
  */
 public class CalcRunTime {
